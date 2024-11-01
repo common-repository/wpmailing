@@ -1,0 +1,173 @@
+
+/**
+ * WPMailing plugin for WordPress 2.x
+ * ----------------------------------
+ * This file is part of WPMailing 1.0
+ * ----------------------------------
+ * Author: Cau Guanabara
+ * Website: http://cauguanabara.jsbrasil.com
+ * ----------------------------------
+ */
+
+form { margin:0; padding:0; }
+
+table.editform td input { width:95%; }
+
+#rightpanel { width:24%; height:auto; border:1px solid #ccc; float:right; 
+              padding:8px; background-color:#FFF; margin-top:15px; }
+
+#leftpanel { width:70%; height:auto; float:left; padding:0; }
+
+#rightpanel h4 { text-align:right; }
+
+#addcontainer { width:50%; margin:4px auto; text-align:left; }
+
+#addcontainer .labfull, #addcontainer .contfull { margin:auto !important; }
+
+.lab { margin:6px 2px 2px 2px; width:30%; float:left; text-align:right; padding:3px; }
+
+.cont { margin:6px 2px 2px 2px; width:65%; float:left; padding:0 3px; }
+
+.itemput { width:75%; }
+
+.labfull { padding:6px 1% 0 1%; }
+
+.contfull { padding:2px !important; }
+
+.inp { width:98% !important; font-size:110%; }
+
+.contfull textarea { width:98% !important; font-size:110%; }
+
+.inps { width:98% !important; font-size:110%; }
+
+.clb { clear:both; }
+
+.optsfld { width:98%; }
+
+.optsfld div { padding:4px; border-bottom:1px dotted #E9E9E9; }
+
+#mailing_write_form fieldset,
+#mailing_add_form fieldset, .fields { border:1px solid #CCC !important; padding:.5%; margin:5px; }
+
+.buttsrig { margin:2px auto 6px auto; }
+.butts { text-align:right; }
+.disab { color:#CCC; font-style:italic; }
+.ropt { padding-right:1%; float:right; }
+
+.sent-ok, .sent-failed,
+.sent-alreadysent { background-position:left; background-repeat:no-repeat; 
+                    font-family:"trebuchet MS", verdana; font-size:1.1em; padding:3px; 
+										padding-left:26px; }
+
+.sent-ok { background-image:url(images/sentok.gif); }
+
+.sent-failed { background-image:url(images/sentno.gif); }
+
+.sent-alreadysent { background-image:url(images/sentcancel.gif); }
+
+.sent-ok strong { color:#66CC66; }
+
+.sent-failed strong { color:#FF6600; }
+
+.sent-alreadysent strong { color:#FFCC00; }
+
+fieldset.bord { margin:25px 2px 2px 2px; padding:10px 4px; border:1px solid #CCC; }
+
+fieldset.bord legend, .bld { font-weight:bold; }
+
+.hlp { cursor:help; }
+
+#wpmlogo { float:right; margin:-10px 0 -50px 5px; }
+
+.tabopt {
+width:40%;
+}
+
+.tabsrc {
+float:right;
+width:54%;
+text-align:center;
+margin-bottom:40px;
+}
+
+ul#wpmoptions {
+background-image:url(images/watermark.gif);
+background-position:5% 50%;
+background-repeat:no-repeat;
+}
+
+
+
+#abcont {
+width:92%;
+margin:5px 4%;
+padding:5px;
+}
+
+#hmenu {
+background-color:transparent;
+border:0;
+border-bottom:1px solid #999;
+padding:0;
+padding-left:10px;
+}
+
+#hmenu a, #hmenu a:link {
+color:#333;
+border:1px solid #CCC;
+border-bottom:0;
+padding:0;
+padding-left:5px;
+padding-right:5px;
+font-size:100%;
+margin:0;
+background-color:#F5F5F5;
+}
+
+#hmenu a:hover {
+border-top:3px solid #666;
+border-bottom:1px solid #FFF;
+background-color:#FAFAFA;
+border-bottom:1px dashed #333;
+color:#333;
+}
+
+#hmenu a.sel {
+font-weight:bold;
+border:1px solid #666;
+border-bottom:1px solid #FFF;
+border-top:3px solid #FF6600;
+background-color:#FFF;
+color:#3333CC;
+}
+
+#hmenu a.sel:hover {
+border-top:3px solid #ccc;
+font-weight:bold;
+border-bottom:1px solid #FFF;
+background-color:#FFF;
+cursor:default;
+}
+
+#visiblecont {
+border:1px solid #999;
+border-top:0;
+padding:10px;
+}
+
+.hlpinfo {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:13px;
+padding:4px 10px;
+border:1px dashed #ccc;
+border-left:10px solid #99CCFF;
+color:#6699FF;
+font-style:italic;
+}
+
+#wpm_help h5 {
+font-size:1.2em;
+border-bottom:.2em solid #e5f3ff;
+}
+
+#wpm_donate a { border:0; text-decoration:none; }

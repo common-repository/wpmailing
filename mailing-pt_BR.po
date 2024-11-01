@@ -1,0 +1,864 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPMailing 1.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-08-06 23:24-0300\n"
+"Last-Translator: cau <cau@cau.com>\n"
+"Language-Team: Cau Guanabara <wpmailing@jsbrasil.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: about.php:16
+#: mailing.js.php:48
+msgid "WPMailing plugin for WordPress"
+msgstr "WPMailing - plugin para WordPress"
+
+#: about.php:22
+#: mailing.js.php:431
+#: mailing.php:522
+msgid "WPMailing"
+msgstr "WPMailing"
+
+#: about.php:24
+#: mailing.js.php:432
+msgid "Help"
+msgstr "Ajuda"
+
+#: about.php:26
+#: mailing.js.php:433
+msgid "FAQ"
+msgstr "Dúvidas comuns"
+
+#: about.php:28
+#: mailing.js.php:434
+msgid "Donate"
+msgstr "Contribua"
+
+#: about.php:32
+#: mailing.js.php:411
+msgid "About WPMailing"
+msgstr "Sobre o WPMailing"
+
+#: about.php:33
+msgid "Basically, WPMailing gives you the ability to organize the users of your blog in groups and offers an interface to send them e-mails based in these groups. Some little modifications are also made in WordPress administrative interface - without modifying any original file."
+msgstr "Basicamente, o plugin WPMailing oferece a possibilidade de criar grupos e aplicá-los aos seus usuários, além de uma interface para enviar e-mails baseado nesses grupos. Mas o WPMailing faz algumas outras modificações na interface administrativa do WordPress."
+
+#: about.php:35
+msgid "The modifications made by WPMailing"
+msgstr "As modificações feitas pelo WPMailing"
+
+#: about.php:36
+msgid "Once installed, WPMailing adds some new features to the WP administrative interface, by adding new pages or through Javascript. See below."
+msgstr "Uma vez instalado, o plugin adiciona algumas novas funcionalidades à interface administrativa do WordPress. Veja abaixo."
+
+#: about.php:37
+msgid "Pages added to WordPress"
+msgstr "Páginas adicionadas ao WordPress"
+
+#: about.php:40
+msgid "Under Write menu, adds a page to compose and send e-mails"
+msgstr "Uma página para escrever e enviar e-mails (menu Escrever)"
+
+#: about.php:43
+msgid "Under Manage menu, adds a page to edit your user groups"
+msgstr "Uma página para editar seus grupos de usuários (menu Gerenciar)"
+
+#: about.php:46
+msgid "Under Plugins menu, adds this page to clarify you about WPMailing"
+msgstr "Esta página esclarecedora (menu Plugins)"
+
+#: about.php:49
+msgid "Under Options menu, adds a page to edit preferences and settings"
+msgstr "Uma interface para editar suas preferências e configurações (menu Opções)"
+
+#: about.php:52
+msgid "Modifications made by Javascript in existent pages"
+msgstr "Modificações na interface através de Javascript"
+
+#: about.php:55
+msgid "On dashboard, adds direct links to WPMailing pages"
+msgstr "Adiciona links diretos para as páginas do WPMailing ao Painel"
+
+#: about.php:58
+msgid "Modifies all pages in the users section, by adding some items to give support for groups management"
+msgstr "Modifica todas as páginas da seção de usuários para dar suporte ao gerenciamento de grupos"
+
+#: about.php:62
+msgid "Applies WPM stamp to the upper right corner of every page that was added or modified by WPMailing"
+msgstr "Aplica o carimbo do WPM no canto superior direito de todas as páginas adicionadas ou modificadas pelo sistema"
+
+#: about.php:67
+msgid "Browsers compatibility"
+msgstr "Compatibilidade com os navegadores"
+
+#: about.php:69
+msgid "When loaded, WPMailing adds more then 400 lines of javascript code to the WordPress administrative pages, therefore this is an important item. The system was successfully tested in the following navigators"
+msgstr "Quando carregado, o WPMailing adiciona mais de 400 linhas de código Javascript às páginas, por isso esse é um ponto importante. O sistema foi testado sem problemas nos seguintes navegadores"
+
+#: about.php:80
+msgid "Credits"
+msgstr "Créditos"
+
+#: about.php:82
+msgid "Author"
+msgstr "Autor"
+
+#: about.php:84
+msgid "Site"
+msgstr "Website"
+
+#: about.php:86
+msgid "Current version"
+msgstr "Versão atual"
+
+#: about.php:87
+msgid "Current status"
+msgstr "Status atual"
+
+#: about.php:88
+msgid "Start date"
+msgstr "Data de início"
+
+#: about.php:89
+msgid "Last update"
+msgstr "Última atualização"
+
+#: about.php:94
+msgid "WPMailing help"
+msgstr "Ajuda do WPMailing"
+
+#: about.php:96
+msgid "Creating groups and applying it to your users"
+msgstr "Criando e aplicando grupos aos usuários"
+
+#: about.php:97
+msgid "There is no interface to create a new group, but you can do that when adding a new user or later, by editing the user settings. Just go to the habitual users administration interface and use the new features added by WPMailing. To create a new group, just add the name of the group to the groups field (always separated by commas) and submit. After create a group, you can define a description to this group, to help your organization. Do it in: Manage > Groups."
+msgstr "Não há uma interface específica para criar novos grupos, mas você pode fazer isso ao criar um novo usuário ou editando usuários existentes. Vá à interface de usuários do WP  e use as funcionalidades adicionadas pelo WPMailing."
+
+#: about.php:98
+msgid "What we call group, actually, is a tag and not a container. Each user can belong to various groups without duplication of the records in database or when when sending e-mails."
+msgstr "O que chamamos de grupo é na verdade apenas uma etiqueta. Cada usuário pode pertencer a vários grupos, sem risco de duplicação nos registros da base de dados ou no envio do e-mail."
+
+#: about.php:100
+msgid "Sending e-mails to the users"
+msgstr "Enviando e-mails para os usuários"
+
+#: about.php:104
+msgid "The syntax to the recipients in field To"
+msgstr "A sintaxe para os recipientes no campo Para"
+
+#: about.php:105
+msgid "This field has an particular syntax that allows you to send e-mails to the blog users based on their groups, capabilities or user levels. Use one of the following keywords: group, role, level or user, with this formula"
+msgstr "Este campo tem uma sintaxe particular que permite enviar e-mails aos usuários do blog baseado em seus grupos, capacidades ou nível de usuário. Use uma das seguintes palavras-chave: group, role, level ou user, com essa fórmula"
+
+#: about.php:106
+msgid "keyword"
+msgstr "palavra-chave"
+
+#: about.php:106
+msgid "value"
+msgstr "valor"
+
+#: about.php:106
+msgid "where value is corresponding value. For example, if you want to use the group mygroup, keyword is &quot;group&quot; and value is &quot;mygroup&quot;."
+msgstr "onde valor é o valor correspondente. Por exemplo, se você quer mostrar o grupo mygroup, a palavra-chave é &quot;group&quot; e o valor é &quot;mygroup&quot;."
+
+#: about.php:107
+msgid "Some valid examples"
+msgstr "Alguns exemplos válidos"
+
+#: about.php:110
+msgid "includes all users tagged with mygroup"
+msgstr "inclui todos os usuários marcados com mygroup"
+
+#: about.php:112
+msgid "includes all users with author capability"
+msgstr "inclui todos os usuários com capacidade de autor"
+
+#: about.php:114
+msgid "includes all users with level 5"
+msgstr "inclui todos os usuários com nível 5"
+
+#: about.php:116
+msgid "includes the user john"
+msgstr "inclui o usuário john"
+
+#: about.php:118
+#: about.php:120
+#: about.php:122
+msgid "includes an e-mail to John Smith"
+msgstr "inclui um e-mail para John Smith"
+
+#: about.php:124
+msgid "includes an e-mail to john"
+msgstr "inclui um e-mail para john"
+
+#: about.php:126
+msgid "You can include two or more groups that contain the same user. The recipients are checked by e-mail address and after the first message sent to a particular e-mail, this address will be automatically rejected by the system."
+msgstr "Você pode incluir dois ou mais grupos que contenham o mesmo usuário. Os recipientes são checados pelo endereço de e-mail e depois do primeiro envio,  o e-mail será rejeitado pelo sistema."
+
+#: about.php:131
+msgid "Special values that you can use in your message"
+msgstr "Valores especiais para usar na sua mensagem"
+
+#: about.php:132
+msgid "There are some special values that you can use in the message body. These values will be replaced with some informations about the user who will receive the message and with values of the selected blog content (post or page)."
+msgstr "Existem alguns valores especiais que você pode usar no corpo da mensagem. Esses valores serão substituídos por informações sobre o usuário atual e por valores relativos ao conteúdo selecionado (post ou página)."
+
+#: about.php:133
+msgid "Current user values to personalize the message"
+msgstr "Valores do usuário atual para personalizar a mensagem"
+
+#: about.php:135
+msgid "The ID of the current user"
+msgstr "O ID do usuário"
+
+#: about.php:136
+msgid "The name (or login, if name is empty) of the current user"
+msgstr "Nome do usuário"
+
+#: about.php:137
+msgid "The login name of the current user"
+msgstr "O login do usuário"
+
+#: about.php:138
+msgid "The e-mail of the current user"
+msgstr "O e-mail do usuário"
+
+#: about.php:139
+msgid "The website of the current user"
+msgstr "O website do usuário"
+
+#: about.php:140
+msgid "The groups of the current user (separated by commas)"
+msgstr "Os grupos do usuário (separados por vírgulas)"
+
+#: about.php:141
+msgid "The level of the current user"
+msgstr "O nível do usuário"
+
+#: about.php:142
+msgid "The capabilities of the current user (separated by commas)"
+msgstr "As capacidades do usuário (separados por vírgulas)"
+
+#: about.php:144
+msgid "The values above will be available only to recipients added by group, role, level or username (user), with our formula <xxx:vvv>. If you include recipients directlly by e-mails, like in the four last examples of the topic above (addressed to john), only %email and %name will be available and %name will be filled with the user portion of the e-mail address."
+msgstr "Os valores acima somente estarão disponíveis para recipientes incluídos por grupo, capacidade, nível ou login, com a nossa fórmula <xxx:vvv>. Se houver recipientes adicionados diretamente por endereço de e-mail, como nos quatro últimos exemplos do tópico acima (endereçados a John), apenas %email e %name estarão disponíveis e %name será preenchido com a porção username do endereço de e-mail."
+
+#: about.php:145
+msgid "Values of the selected post or page"
+msgstr "Valores da página ou post selecionado"
+
+#: about.php:147
+msgid "The ID of the selected publication"
+msgstr "O ID da publicação"
+
+#: about.php:148
+msgid "Date and time of the publication"
+msgstr "Data e hora da publicação"
+
+#: about.php:149
+msgid "Title of the publication"
+msgstr "Título da publicação"
+
+#: about.php:150
+msgid "Publication content"
+msgstr "Texto da publicação"
+
+#: about.php:151
+msgid "The category"
+msgstr "A categoria"
+
+#: about.php:152
+msgid "The ID of the author"
+msgstr "O ID do autor"
+
+#: about.php:153
+msgid "The name of the author"
+msgstr "O nome do autor"
+
+#: about.php:154
+msgid "Publication type (post or page)"
+msgstr "Tipo de publicação (post ou page)"
+
+#: about.php:156
+msgid "There are some other available values related to the selected publication. Actually you can use all fields returned by get_post() WordPress function."
+msgstr "Há outros valores relativos à publicação selecionada que podem ser usados. Na verdade, você pode usar todos os campos retornados pela função get_user() do WordPress."
+
+#: about.php:157
+msgid "See all possible return values"
+msgstr "Veja todos os valores possíveis"
+
+#: about.php:164
+msgid "Frequently asked questions"
+msgstr "Dúvidas comuns"
+
+#: about.php:168
+msgid "Does WPMailing modify any WordPress file?"
+msgstr "WPMailing modifica algum arquivo do WordPress?"
+
+#: about.php:169
+msgid "No. WPMailing modifies some WordPress pages with Javascript, after that pages are loaded and the hard-code is not affected."
+msgstr "Não, as páginas afetadas são modificadas por Javascript, depois de carregadas. Isso não afeta os arquivos originais."
+
+#: about.php:171
+msgid "Where does WPMailing store the users information?"
+msgstr "Onde são guardadas as informações dos usuários?"
+
+#: about.php:172
+msgid "WPMailing uses the default WordPress users system and do not create any new table in your database. But some extra information are stored via set_option() function."
+msgstr "WPMailing usa o sistema de gerenciamento de usuários do WP e não cmodifica do bando de dados. Todavia, algumas informações extras são armazenadas com a função set_option()."
+
+#: about.php:174
+msgid "The structure of my WP installation will be affected after I have deactivated WPMailing?"
+msgstr "A estrutura do WordPress será afetada pela instalação  e desinstalação do WPMailing?"
+
+#: about.php:175
+msgid "The structure will be not affected, but you can decide to preserve some information and other configuration values for a future installation of WPM or remove all data when deactivating WPM. Before deactivating the plugin, go to Options > E-mail and set your preference."
+msgstr "A estrutura não será afetada, mas você pode decidir se guarda ou não os dados de seus grupos e outras configurações do sistema ao desinstalar. Vá até Options > E-mail e defina suas preferências."
+
+#: about.php:177
+msgid "How to insert new contacts to my mailing list?"
+msgstr "Como inserir novos contatos ao mailing?"
+
+#: about.php:178
+msgid "Just add new users to your WordPress blog, tagging them with appropriate groups."
+msgstr "Basta adicionar novos usuários ao seu blog, marcando-os com grupos apropriados."
+
+#: about.php:185
+msgid "Contribute with WPMailing development"
+msgstr "Contribua com o desenvolvimento do WPMailing"
+
+#: about.php:186
+msgid "If you like this free software, you can contribute with WPMailing in several ways"
+msgstr "Se você gostou desse software gratuito, sua contribuição será muito bem-vinda e você pode fazer isso de várias formas"
+
+#: about.php:189
+msgid "Give me a feedback"
+msgstr "Me diga o que achou"
+
+#: about.php:190
+msgid "I would like very much to receive your opinion, suggestion or critical. This the very first release of WPM and I am not completely secure than everything is alright. Thats because your feedback is important to me, therefore please, feel free to write me."
+msgstr "Eu adoraria receber sua opinião, sugestão ou crítica. Esta é a primeira versão do programa e ainda não estou seguro de que tudo correrá bem, por isso o que você tiver a dizer vale muito para mim. Entre em contato."
+
+#: about.php:193
+msgid "Help me to find and repair some possible problems"
+msgstr "Ajude-me a encontrar e resolver eventuais problemas"
+
+#: about.php:194
+msgid "If you have found a bug or some minor problem in this script, contact me and let me know about the problem and what you were trying to do when it happened."
+msgstr "Se você achou um bug ou outro problema menor nesse script, entre em contato e me fale do problema e o que estava tentando fazer quando isso aconteceu."
+
+#: about.php:197
+msgid "Correct my bad English"
+msgstr "Corrija meu péssimo inglês"
+
+#: about.php:198
+msgid "If are you reading it in english, you need to know: this text is the result of two different translators and my poor english translating what I have thought in my own language - I read only technical texts, never speak or write in english, so there must be several errors... Send me your corrections, I will apply it."
+msgstr "Aqui peço ajuda para melhorar o inglês utilizado nos arquivos originais desse plugin (obrigatório). Se você fala inglês e quer me ajudar com isso, visualize o sistema em inglês."
+
+#: about.php:201
+msgid "Help me on development"
+msgstr "Ajude no desenvolvimento"
+
+#: about.php:202
+msgid "If you are a web developer and have found an error, a better way to do something or have thought about something that I did not, I will appreciate your help."
+msgstr "Se você é um desenvolvedor web e encontrou um erro ou pensou em algo que eu não fiz, vou apreciar sua ajuda."
+
+#: about.php:205
+msgid "Make a little donation online"
+msgstr "Faça uma doação online"
+
+#: about.php:206
+msgid "I am a self-taught programmer who fights to stay alive in Brazil as a free lance web developer. If you think WPM deserves, I will accept a little contribution with happiness. Thank you for the recognition."
+msgstr "Sou um programador autodidata que luta para sobreviver como free lance no Brasil. Se você acha que o WPM merece, vou aceitar sua contribuição com alegria. Obrigado pelo reconhecimento."
+
+#: groups.php:19
+msgid "User Groups"
+msgstr "Grupos de usuários"
+
+#: groups.php:23
+#: mailing.js.php:85
+msgid "Group name"
+msgstr "Nome do grupo"
+
+#: groups.php:24
+msgid "Contacts"
+msgstr "Contatos"
+
+#: groups.php:25
+msgid "Group description"
+msgstr "Descrição do grupo"
+
+#: groups.php:26
+msgid "Actions"
+msgstr "Ações"
+
+#: groups.php:42
+#: groups.php:82
+#: mailing.js.php:353
+#: mailing.php:231
+#: mailing.php:534
+msgid "Not set"
+msgstr "Não definido"
+
+#: groups.php:46
+msgid "characters"
+msgstr "caracteres"
+
+#: groups.php:52
+msgid "Delete this group?"
+msgstr "Excluir esse grupo?"
+
+#: groups.php:53
+msgid "OK to continue, Cancel to abort."
+msgstr "Ok para continuar, Cancelar para desistir."
+
+#: groups.php:54
+msgid "delete"
+msgstr "excluir"
+
+#: groups.php:58
+msgid "Edit"
+msgstr "Editar"
+
+#: groups.php:62
+msgid "Send mail"
+msgstr "Enviar e-mail"
+
+#: groups.php:68
+#: mailing.js.php:106
+#: mailing.js.php:310
+#: write.php:175
+msgid "There are no groups yet"
+msgstr "Ainda não há grupos"
+
+#: groups.php:83
+#: groups.php:93
+msgid "Update group"
+msgstr "Atualizar grupo"
+
+#: groups.php:84
+msgid "Name"
+msgstr "Nome"
+
+#: groups.php:88
+msgid "Description"
+msgstr "Descrição"
+
+#: mailing.cls.php:209
+msgid "skipped: already included"
+msgstr "ignorado: já incluído"
+
+#: mailing.cls.php:216
+msgid "sent successfully"
+msgstr "enviado com sucesso"
+
+#: mailing.cls.php:218
+msgid "could not be sent"
+msgstr "não pôde ser enviado"
+
+#: mailing.js.php:52
+msgid "Information and help"
+msgstr "Informações e ajuda"
+
+#: mailing.js.php:55
+msgid "Write E-mail"
+msgstr "Escrever e-mail"
+
+#: mailing.js.php:58
+msgid "Manage users"
+msgstr "Gerenciar usuários"
+
+#: mailing.js.php:61
+msgid "Edit user groups"
+msgstr "Editar grupos de usuários"
+
+#: mailing.js.php:64
+msgid "Update settings"
+msgstr "Definir configurações"
+
+#: mailing.js.php:78
+msgid "Add this group to selected users"
+msgstr "Aplicar este grupo aos usuários selecionados"
+
+#: mailing.js.php:81
+#: mailing.js.php:92
+#: mailing.js.php:100
+#: mailing.js.php:223
+msgid "Groups"
+msgstr "Grupos"
+
+#: mailing.js.php:83
+msgid "new group"
+msgstr "novo grupo"
+
+#: mailing.js.php:90
+msgid "Remove this group from selected users"
+msgstr "Remover este grupo dos usuários selecionados"
+
+#: mailing.js.php:103
+#: mailing.js.php:307
+#: write.php:172
+msgid "Your groups"
+msgstr "Seus grupos"
+
+#: mailing.js.php:120
+msgid "Select the action you want to execute"
+msgstr "Selecione a ação que deseja executar"
+
+#: mailing.js.php:125
+msgid "Select at least one user to update"
+msgstr "Selecione ao menos um usuário para atualizar"
+
+#: mailing.js.php:135
+msgid "Select one of your groups to remove"
+msgstr "Selecione um grupo para remover"
+
+#: mailing.js.php:197
+msgid "Group"
+msgstr "Grupo"
+
+#: mailing.js.php:219
+msgid "Website"
+msgstr "Website"
+
+#: mailing.js.php:248
+msgid "Show groups in table"
+msgstr "Mostrar grupos na tabela"
+
+#: mailing.js.php:252
+msgid "Check/uncheck all boxes"
+msgstr "Marcar/desmarcar todos"
+
+#: mailing.js.php:255
+msgid "Filter users by group"
+msgstr "Filtrar usuários por grupo"
+
+#: mailing.js.php:257
+msgid "All groups"
+msgstr "Todos os grupos"
+
+#: mailing.js.php:260
+msgid "Show"
+msgstr "Mostrar"
+
+#: mailing.js.php:298
+msgid "To create a new group, just type the new group name in the field bellow."
+msgstr "Para criar um grupo, simplesmente digite abaixo um nome para o novo grupo."
+
+#: mailing.js.php:301
+msgid "Tag this user with the following groups"
+msgstr "Marcar este usuário com os seguintes grupos"
+
+#: mailing.js.php:302
+msgid "separated by commas"
+msgstr "separados por vírgulas"
+
+#: mailing.js.php:422
+msgid "If Cc or Cco fields are not empty, the recipients that you put there will receive copies of all messages sent"
+msgstr "Se os campos Cc ou Cco não estiverem vazios, esses recipientes receberão cópias de todas as mensagens enviadas"
+
+#: mailing.js.php:423
+msgid "the system sends individual messages to each recipient included in To field"
+msgstr "o sistema envia mensagens individuais para cada recipiente incluído no campo Para"
+
+#: mailing.js.php:424
+msgid "Do you wish to continue?"
+msgstr "Deseja continuar?"
+
+#: mailing.php:102
+msgid "The fields From, To, Subject and Body are required."
+msgstr "Os campos De, Para, Título e Mensagem são obrigatórios"
+
+#: mailing.php:108
+msgid "Your e-mail could not be sent, an error has occurred."
+msgstr "Seu e-mail não pôde ser enviado, houve um erro."
+
+#: mailing.php:115
+msgid "The file could not be added, an error has occurred."
+msgstr "O arquivo não pôde ser adicionado, houve um erro."
+
+#: mailing.php:122
+msgid "The file could not be removed, an error has occurred."
+msgstr "O arquivo não pôde ser removido, houve um erro."
+
+#: mailing.php:160
+msgid "Settings successfully defined"
+msgstr "Configurações atualizadas"
+
+#: mailing.php:170
+msgid "Group information successfully updated"
+msgstr "As informações do grupo foram atualizadas"
+
+#: mailing.php:174
+msgid "Group successfully removed"
+msgstr "O grupo foi removido"
+
+#: mailing.php:401
+msgid "The group was added"
+msgstr "O grupo foi adicionado"
+
+#: mailing.php:405
+msgid "The group was removed"
+msgstr "O grupo foi removido"
+
+#: mailing.php:454
+msgid "Unknown user"
+msgstr "Usuário desconhecido"
+
+#: mailing.php:516
+#: write.php:39
+msgid "Write e-mail"
+msgstr "Escrever e-mail"
+
+#: mailing.php:518
+msgid "Manage Groups"
+msgstr "Gerenciar grupos"
+
+#: mailing.php:518
+msgid "Mailing Groups"
+msgstr "Grupos"
+
+#: mailing.php:520
+#: settings.php:20
+msgid "Mailing Options"
+msgstr "Opções do Mailing"
+
+#: mailing.php:520
+#: settings.php:22
+msgid "E-mail"
+msgstr "E-mail"
+
+#: settings.php:24
+msgid "Default sender"
+msgstr "Remetente padrão"
+
+#: settings.php:28
+msgid "Default reply address"
+msgstr "Endereço de resposta padrão"
+
+#: settings.php:32
+msgid "Default subject"
+msgstr "Título padrão"
+
+#: settings.php:36
+#: settings.php:41
+msgid "Encoding"
+msgstr "Codificação"
+
+#: settings.php:42
+msgid "Most used"
+msgstr "Mais usados"
+
+#: settings.php:52
+msgid "Other configurations"
+msgstr "Outras configurações"
+
+#: settings.php:55
+msgid "Add users dropdown height"
+msgstr "Altura da lista de usuários"
+
+#: settings.php:58
+msgid "lines"
+msgstr "linhas"
+
+#: settings.php:60
+msgid "Show in users dropdown"
+msgstr "Mostrar na lista de usuários"
+
+#: settings.php:66
+msgid "login name"
+msgstr "login"
+
+#: settings.php:68
+msgid "real name"
+msgstr "nome"
+
+#: settings.php:70
+msgid "e-mail"
+msgstr "e-mail"
+
+#: settings.php:72
+msgid "of the users"
+msgstr "dos usuários"
+
+#: settings.php:76
+msgid "Show in add content dropdown"
+msgstr "Mostrar na lista de conteúdo"
+
+#: settings.php:79
+msgid "last posts (ordered by date)"
+msgstr "últimos posts (ordenados por data)"
+
+#: settings.php:85
+msgid "Show pages in dropdown"
+msgstr "Mostrar páginas na lista"
+
+#: settings.php:91
+msgid "Options panel always visible"
+msgstr "Painel de opções sempre visível"
+
+#: settings.php:93
+msgid "When uninstalling WPMailing"
+msgstr "Ao desinstalar o WPMailing"
+
+#: settings.php:98
+msgid "preserve the information about my groups, in the future I can decide to install it again"
+msgstr "preservar as informações e configurações, posso resolver reinstalar o WPMailing"
+
+#: settings.php:101
+msgid "delete all stored information permanently"
+msgstr "deletar permanentemente todas as informações"
+
+#: settings.php:104
+msgid "Define settings"
+msgstr "Definir configurações"
+
+#: write.php:17
+msgid "The PHP function to send e-mails is disabled in this server."
+msgstr "A função PHP para enviar e-mails foi desabilitada neste servidor."
+
+#: write.php:20
+msgid "There are some lost files, attached to an e-mail that was not sent."
+msgstr "Há arquivos perdidos, anexados a um e-mail não enviado."
+
+#: write.php:21
+msgid "Files"
+msgstr "Arquivos"
+
+#: write.php:23
+msgid "Use it"
+msgstr "Usar"
+
+#: write.php:24
+msgid "Discard"
+msgstr "Descartar"
+
+#: write.php:32
+msgid "Mailing sending information"
+msgstr "Informações sobre o envio"
+
+#: write.php:41
+#: write.php:171
+msgid "Options"
+msgstr "Opções"
+
+#: write.php:44
+msgid "Select active content"
+msgstr "Selecionar conteúdo"
+
+#: write.php:50
+msgid "Attach files"
+msgstr "Anexar arquivos"
+
+#: write.php:55
+msgid "Show all fields"
+msgstr "Mostrar todos os campos"
+
+#: write.php:57
+msgid "Your contacts"
+msgstr "Seus contatos"
+
+#: write.php:68
+msgid "Add/remove selected"
+msgstr "Adicionar/remover selecionados"
+
+#: write.php:73
+msgid "Change active content"
+msgstr "Alterar conteúdo ativo"
+
+#: write.php:75
+msgid "Your publications"
+msgstr "Suas publicações"
+
+#: write.php:80
+msgid "Posts"
+msgstr "Posts"
+
+#: write.php:96
+msgid "Pages"
+msgstr "Páginas"
+
+#: write.php:109
+msgid "Selected"
+msgstr "Selecionado"
+
+#: write.php:117
+msgid "Attachments"
+msgstr "Anexos"
+
+#: write.php:119
+msgid "Attach file"
+msgstr "Anexar arquivo"
+
+#: write.php:122
+msgid "Upload file"
+msgstr "Enviar arquivo"
+
+#: write.php:127
+msgid "Attached files"
+msgstr "Arquivos em anexo"
+
+#: write.php:130
+msgid "There are no files attached to this message"
+msgstr "Não há arquivos em anexo"
+
+#: write.php:136
+msgid "Remove this file?"
+msgstr "Remover este arquivo?"
+
+#: write.php:141
+msgid "Click to remove this file"
+msgstr "Clique para remover este arquivo"
+
+#: write.php:151
+msgid "From"
+msgstr "De"
+
+#: write.php:157
+msgid "To"
+msgstr "Para"
+
+#: write.php:177
+msgid "User roles"
+msgstr "Status"
+
+#: write.php:180
+msgid "User levels"
+msgstr "Níveis"
+
+#: write.php:187
+msgid "Cc"
+msgstr "Cc"
+
+#: write.php:194
+msgid "Cco"
+msgstr "Cco"
+
+#: write.php:201
+msgid "Reply to"
+msgstr "Endereço de resposta"
+
+#: write.php:210
+msgid "Subject"
+msgstr "Título"
+
+#: write.php:218
+msgid "Message"
+msgstr "Mensagem"
+
+#: write.php:234
+msgid "Send e-mail"
+msgstr "Enviar e-mail"
+
+#: write.php:246
+msgid "Sending is disabled"
+msgstr "Envio desabilitado"
+
